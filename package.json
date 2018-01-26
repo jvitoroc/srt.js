@@ -1,0 +1,32 @@
+{
+  "name": "srt.js",
+  "version": "1.0.0",
+  "description": "API to parse and tweak SubRip Text and timecodes.",
+  "main": "build/srt.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --env=prod",
+    "dev": "webpack --env=dev --progress --watch"
+  },
+  "keywords": [
+    "srt",
+    "subrip",
+    "parse",
+    "subrip",
+    "text",
+    "timecode"
+  ],
+  "author": "jvitoroc",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-loader": "^8.0.0-beta.0",
+    "es6-map": "^0.1.5"
+  }
+}

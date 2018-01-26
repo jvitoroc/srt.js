@@ -1,0 +1,7 @@
+1
+00:00:01,555 --> 00:00:03,141
+<i>Anteriormente...</i>
+
+2
+00:00:04,523 --> 00:00:06,647
+Preciso encontrar uma pessoa.

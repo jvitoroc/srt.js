@@ -1,7 +1,3 @@
-const srtJs = function() {
-    /* initialize API */
-};
-
 const SEQUENCE = /^\d+$/m;
 const TIMECODE_LINE = /^((\d{2}):(\d{2}):(\d{2}),(\d{3})) --> ((\d{2}):(\d{2}):(\d{2}),(\d{3}))/;
 const TIMECODE = /(\d{2}):(\d{2}):(\d{2}),(\d{3})/;

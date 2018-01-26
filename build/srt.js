@@ -89,11 +89,6 @@ exports.toSRT = toSRT;
 exports.secondsToTimecode = secondsToTimecode;
 exports.spreadToSeconds = spreadToSeconds;
 exports.timecodeToSeconds = timecodeToSeconds;
-
-var srtJs = function srtJs() {
-  /* initialize API */
-};
-
 var SEQUENCE = /^\d+$/m;
 var TIMECODE_LINE = /^((\d{2}):(\d{2}):(\d{2}),(\d{3})) --> ((\d{2}):(\d{2}):(\d{2}),(\d{3}))/;
 var TIMECODE = /(\d{2}):(\d{2}):(\d{2}),(\d{3})/;
